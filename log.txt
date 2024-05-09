@@ -1,0 +1,123 @@
+[2024-05-10 02:12:57,287] [Deploy] [INFO] building
+[2024-05-10 02:13:42,003] [Deploy] [INFO] build success
+stdout:
+stderr:
+Nuitka-Options: Used command line options: --standalone --plugin-enable=pyside6 --disable-console --assume-yes-for-downloads --include-package-data=Furious --windows-icon-from-ico=Icons/png/rocket-takeoff-window.png --force-stdout-spec=%TEMP%/_Furious_Enable_Stdout --force-stderr-spec=%TEMP%/_Furious_Enable_Stderr Furious --output-dir=T:\Furious\Furious-Deploy
+Nuitka-Options:WARNING: Adapted '--force-stdout-spec' option value from legacy quoting style to '%TEMP%/_Furious_Enable_Stdout' -> '{TEMP}/_Furious_Enable_Stdout'
+Nuitka-Options:WARNING: Adapted '--force-stderr-spec' option value from legacy quoting style to '%TEMP%/_Furious_Enable_Stderr' -> '{TEMP}/_Furious_Enable_Stderr'
+Nuitka:WARNING: The Python version '3.12' is only experimentally supported by Nuitka '2.2.1', but an upcoming release will change that. In the mean time use Python version '3.11' instead or newer Nuitka.
+Nuitka: Starting Python compilation with Nuitka '2.2.1' on Python '3.12' commercial grade 'not installed'.
+Nuitka: Completed Python level compilation and optimization.
+Nuitka: Generating source code for C backend compiler.
+Nuitka: Running data composer tool for optimal constant value handling.
+Nuitka: Running C compilation via Scons.
+Nuitka-Scons: Backend C compiler: gcc (gcc 13.2.0).
+Nuitka-Scons: Backend linking program with 138 files (no progress information available for this stage).
+Nuitka-Scons: Compiled 138 C files using ccache.
+Nuitka-Scons: Cached C files (using ccache) with result 'cache hit': 138
+Nuitka-Postprocessing: File 'Icons/png/rocket-takeoff-window.png' is not in Windows icon format, converting to it.
+Nuitka-Postprocessing: Adding 7 icon(s) from icon file 'Icons/png/rocket-takeoff-window.png'.
+Nuitka-Plugins:pyside6: Including Qt plugins 'iconengines,imageformats,platforms,styles,tls' below 'PySide6\qt-plugins'.
+Nuitka-Options: Included data file 'Furious\Data\font\CascadiaMono' due to package 'Furious' package data.
+Nuitka-Options: Included data file 'Furious\Data\font\LICENSE' due to package 'Furious' package data.
+Nuitka-Options: Included data file 'Furious\Data\hysteria\bypass-Iran.acl' due to package 'Furious' package data.
+Nuitka-Options: Included data file 'Furious\Data\hysteria\bypass-mainland-China.acl' due to package 'Furious' package data.
+Nuitka-Options: Included data file 'Furious\Data\hysteria\country.mmdb' due to package 'Furious' package
+data.
+Nuitka-Options: Included data file 'Furious\Data\xray\geoip.dat' due to package 'Furious' package data.
+Nuitka-Options: Included data file 'Furious\Data\xray\geosite.dat' due to package 'Furious' package data.Nuitka-Options: Included data file 'Furious\Data\xray\iran.dat' due to package 'Furious' package data.
+Nuitka: Keeping build directory 'T:\Furious\Furious-Deploy\Furious.build'.
+Nuitka: Successfully created 'T:\Furious\Furious-Deploy\Furious.dist\Furious.exe'.
+
+[2024-05-10 02:13:47,277] [Deploy] [INFO] creating 'Furious-0.4.0-windows10-amd64.zip' and adding 'Furious-0.4.0-windows10' to it
+[2024-05-10 02:13:47,282] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10'
+[2024-05-10 02:13:47,282] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\Furious'
+[2024-05-10 02:13:47,283] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\PySide6'
+[2024-05-10 02:13:47,283] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\pybase64'
+[2024-05-10 02:13:47,284] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\shiboken6'
+[2024-05-10 02:13:48,133] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\Furious.exe'
+[2024-05-10 02:13:48,357] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\libcrypto-3.dll'
+[2024-05-10 02:13:48,360] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\libffi-8.dll'
+[2024-05-10 02:13:48,396] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\libssl-3.dll'
+[2024-05-10 02:13:48,428] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\msvcp140.dll'
+[2024-05-10 02:13:48,430] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\msvcp140_1.dll'
+[2024-05-10 02:13:48,443] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\msvcp140_2.dll'
+[2024-05-10 02:13:48,457] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\pyexpat.pyd'
+[2024-05-10 02:13:48,474] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\pyside6.abi3.dll'
+[2024-05-10 02:13:48,477] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\python3.dll'
+[2024-05-10 02:13:48,775] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\python312.dll'
+[2024-05-10 02:13:49,100] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\qt6core.dll'
+[2024-05-10 02:13:49,168] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\qt6datavisualization.dll'
+[2024-05-10 02:13:49,719] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\qt6gui.dll'
+[2024-05-10 02:13:49,824] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\qt6network.dll'
+[2024-05-10 02:13:49,893] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\qt6opengl.dll'
+[2024-05-10 02:13:50,127] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\qt6pdf.dll'
+[2024-05-10 02:13:50,155] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\qt6svg.dll'
+[2024-05-10 02:13:50,175] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\qt6test.dll'
+[2024-05-10 02:13:50,539] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\qt6widgets.dll'
+[2024-05-10 02:13:50,541] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\select.pyd'
+[2024-05-10 02:13:50,562] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\shiboken6.abi3.dll'
+[2024-05-10 02:13:50,571] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\sysproxy.pyd'
+[2024-05-10 02:13:50,579] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\ujson.pyd'
+[2024-05-10 02:13:50,652] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\unicodedata.pyd'
+[2024-05-10 02:13:50,658] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\vcruntime140.dll'
+[2024-05-10 02:13:50,661] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\vcruntime140_1.dll'
+[2024-05-10 02:13:50,666] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10_asyncio.pyd'
+[2024-05-10 02:13:50,671] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10_bz2.pyd'
+[2024-05-10 02:13:50,680] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10_ctypes.pyd'
+[2024-05-10 02:13:50,696] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10_decimal.pyd'
+[2024-05-10 02:13:50,699] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10_hashlib.pyd'
+[2024-05-10 02:13:50,708] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10_lzma.pyd'
+[2024-05-10 02:13:50,710] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10_multiprocessing.pyd'
+[2024-05-10 02:13:50,716] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10_overlapped.pyd'
+[2024-05-10 02:13:50,718] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10_queue.pyd'
+[2024-05-10 02:13:50,724] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10_socket.pyd'
+[2024-05-10 02:13:50,734] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10_ssl.pyd'
+[2024-05-10 02:13:50,736] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10_uuid.pyd'
+[2024-05-10 02:13:50,738] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10_wmi.pyd'
+[2024-05-10 02:13:50,739] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\Furious\Data'
+[2024-05-10 02:13:50,740] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\Furious\Data\font'
+[2024-05-10 02:13:50,740] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\Furious\Data\hysteria'
+[2024-05-10 02:13:50,741] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\Furious\Data\xray'
+[2024-05-10 02:13:50,770] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\Furious\Data\font\CascadiaMono'
+[2024-05-10 02:13:50,771] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\Furious\Data\font\LICENSE'
+[2024-05-10 02:13:50,810] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\Furious\Data\hysteria\bypass-Iran.acl'
+[2024-05-10 02:13:50,843] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\Furious\Data\hysteria\bypass-mainland-China.acl'
+[2024-05-10 02:13:51,324] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\Furious\Data\hysteria\country.mmdb'
+[2024-05-10 02:13:51,790] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\Furious\Data\xray\geoip.dat'
+[2024-05-10 02:13:52,038] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\Furious\Data\xray\geosite.dat'
+[2024-05-10 02:13:52,192] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\Furious\Data\xray\iran.dat'
+[2024-05-10 02:13:52,195] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\pybase64_pybase64.pyd'
+[2024-05-10 02:13:52,196] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\PySide6\qt-plugins'
+[2024-05-10 02:13:52,393] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\PySide6\QtCore.pyd'
+[2024-05-10 02:13:52,439] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\PySide6\QtDataVisualization.pyd'
+[2024-05-10 02:13:52,773] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\PySide6\QtGui.pyd'
+[2024-05-10 02:13:52,837] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\PySide6\QtNetwork.pyd'
+[2024-05-10 02:13:53,268] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\PySide6\QtOpenGL.pyd'
+[2024-05-10 02:13:53,284] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\PySide6\QtTest.pyd'
+[2024-05-10 02:13:53,585] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\PySide6\QtWidgets.pyd'
+[2024-05-10 02:13:53,586] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\PySide6\qt-plugins\iconengines'
+[2024-05-10 02:13:53,587] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\PySide6\qt-plugins\imageformats'
+[2024-05-10 02:13:53,587] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\PySide6\qt-plugins\platforms'
+[2024-05-10 02:13:53,588] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\PySide6\qt-plugins\styles'
+[2024-05-10 02:13:53,589] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\PySide6\qt-plugins\tls'
+[2024-05-10 02:13:53,594] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\PySide6\qt-plugins\iconengines\qsvgicon.dll'
+[2024-05-10 02:13:53,598] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\PySide6\qt-plugins\imageformats\qgif.dll'
+[2024-05-10 02:13:53,601] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\PySide6\qt-plugins\imageformats\qicns.dll'
+[2024-05-10 02:13:53,605] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\PySide6\qt-plugins\imageformats\qico.dll'
+[2024-05-10 02:13:53,632] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\PySide6\qt-plugins\imageformats\qjpeg.dll'
+[2024-05-10 02:13:53,635] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\PySide6\qt-plugins\imageformats\qpdf.dll'
+[2024-05-10 02:13:53,638] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\PySide6\qt-plugins\imageformats\qsvg.dll'
+[2024-05-10 02:13:53,640] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\PySide6\qt-plugins\imageformats\qtga.dll'
+[2024-05-10 02:13:53,665] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\PySide6\qt-plugins\imageformats\qtiff.dll'
+[2024-05-10 02:13:53,667] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\PySide6\qt-plugins\imageformats\qwbmp.dll'
+[2024-05-10 02:13:53,702] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\PySide6\qt-plugins\imageformats\qwebp.dll'
+[2024-05-10 02:13:53,771] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\PySide6\qt-plugins\platforms\qdirect2d.dll'
+[2024-05-10 02:13:53,775] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\PySide6\qt-plugins\platforms\qminimal.dll'
+[2024-05-10 02:13:53,782] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\PySide6\qt-plugins\platforms\qoffscreen.dll'
+[2024-05-10 02:13:53,842] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\PySide6\qt-plugins\platforms\qwindows.dll'
+[2024-05-10 02:13:53,857] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\PySide6\qt-plugins\styles\qmodernwindowsstyle.dll'
+[2024-05-10 02:13:53,863] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\PySide6\qt-plugins\tls\qcertonlybackend.dll'
+[2024-05-10 02:13:53,882] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\PySide6\qt-plugins\tls\qopensslbackend.dll'
+[2024-05-10 02:13:53,904] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\PySide6\qt-plugins\tls\qschannelbackend.dll'
+[2024-05-10 02:13:53,907] [Deploy] [INFO] adding 'T:\Furious\Furious-Deploy\Furious-0.4.0-windows10\shiboken6\Shiboken.pyd
